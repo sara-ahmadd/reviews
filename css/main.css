@@ -6,8 +6,8 @@ body {
   background-color: #eee;
 }
 .container {
-  margin: 10vh auto;
-  width: 30vw;
+  margin: 20px auto 30px auto;
+  width: 40vw;
   height: fit-content;
   background-color: #ffffff;
   text-align: center;
@@ -17,6 +17,18 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  box-shadow: 1px 1px 30px #adaeb0;
+}
+#revs {
+  font-size: 40px;
+  width: fit-content;
+  margin: 20px auto 0 auto;
+}
+#line {
+  height: 3px;
+  border: none;
+  width: 60px;
+  background-color: rgb(110, 230, 235);
 }
 .arrows {
   display: flex;
